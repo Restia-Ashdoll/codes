@@ -1,0 +1,20 @@
+
+<html>
+<head>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="login.css">
+	<div class="login-page">
+	  <div class="form">
+		
+		<form action="select_data.php" class="login-form" method="post" required>
+		  <input type="text" placeholder="username" name="username"/ required>
+		  <input type="password" placeholder="password" name="password"/ required>
+		  <div class="g-recaptcha" data-sitekey="6Leu3kEUAAAAAFzlaCiEjDldGY-YPBb9o8uW4N0r"></div>
+		  <button type="submit" name="Enter" value="Enter">Login</button>
+		  <p class="message">Not registered? <a href="signup.html">Sign up</a></p>
+		</form>
+	  </div>
+	</div>
+</body>	
